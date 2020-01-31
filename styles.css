@@ -1,0 +1,144 @@
+/* Desaturated-Red: #ce9696;
+Soft-Red: #f96161;
+Dark-Grayish-Red: #403939;
+gradient: linear-gradient(#ffffff, #fff4f4);
+line-gradient: linear-gradient(#f7bebe, to #ed8b8b); */
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	desaturated-red: #ce9696;
+	soft-red: #f96161;
+	dark-grayish-red: #403939;
+	gradient: linear-gradient(#ffffff, #fff4f4);
+	line-gradient: linear-gradient(#f7bebe, to #ed8b8b);
+	text-align: center;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 3rem;
+	letter-spacing: 0.5rem;
+}
+
+.logo {
+	float: left;
+	padding: 10% 5%;
+}
+
+.we-are {
+	font-weight: 300;
+	color: #ce9696;
+	clear: left;
+	margin-bottom: 0%;
+}
+
+.coming-soon {
+	font-weight: 600;
+	color: #403939;
+	margin-top: 0%;
+}
+
+.intro {
+	color: #ce9696;
+	font-size: 1rem;
+}
+
+#img-container {}
+
+.main-modal {
+	padding-bottom: 10%;
+	width: 100%;
+}
+
+.desk-modal {
+	display: none;
+}
+
+.submit-hide {
+	display: none;
+}
+
+.submit-arrow {
+	background-image: linear-gradient(135deg, #f7bebe, #ed8b8b);
+	border-radius: 50px;
+	padding: 20px 40px;
+}
+
+.email-field {
+	flex-grow: 2;
+	font-size: 1rem;
+	color: #ce9696;
+	border: none;
+	outline: none;
+	padding: 0;
+}
+
+.email-form {
+	margin-top: 10%;
+	display: flex;
+	flex-direction: row;
+	border-radius: 50px;
+	padding: 1% 0 1% 5%;
+	border: 1px solid #ce9696;
+}
+
+.email-field::placeholder {
+	color: #ce9696;
+}
+
+#info {
+	padding: 0% 5%;
+}
+
+#credits {
+	background-image: linear-gradient(135deg, #f7bebe, #ed8b8b);
+	margin-top: 100px;
+	padding: 20% 10%;
+	color: white;
+}
+
+.attribution {
+	font-size: 1rem;
+	text-align: center;
+	line-height: 2;
+}
+
+.attribution a {
+	/* text-decoration: ; */
+	color: #fff4f4;
+	text-decoration: underline;
+}
+
+.attribution a:hover {
+	text-decoration: underline;
+}
+
+@media(max-width:700px) {
+	.main-modal {
+		display: none;
+	}
+
+	.desk-modal {
+		display: block;
+		height: 100vh;
+		float: right;
+	}
+
+
+
+	#info {
+		text-align: left;
+		padding-right: 15%;
+		padding-left: 10%;
+
+	}
+
+	.logo {
+		padding-left: 0;
+		padding-bottom: 100px;
+	}
+
+	#credits {
+		padding: 5%;
+	}
+}
